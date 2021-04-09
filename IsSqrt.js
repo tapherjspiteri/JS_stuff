@@ -1,6 +1,6 @@
 //get user input
 var n = window.prompt("Choose a number between 0 and 250,000: ");
-console.log(n);  //logged for testing, comment out later or delete.
+//console.log(n);  //logged for testing, comment out later or delete.
 
 //find sqrt of a number
 var ntest = Math.sqrt(n)
@@ -15,5 +15,5 @@ if (isInt == true) {
     }else {
         response = "is not a perfect square" ;
     }    
-alert ((n + response))
+alert ((n + " " + response))
 
